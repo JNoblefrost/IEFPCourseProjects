@@ -41,3 +41,6 @@ There were also lectures in relation to network setups and how they work:
 -Learning commands and structures through the usage of various CISCO Packet Tracer exercises.
 -We also configured our own peer-to-peer network as well as a server-client network using Windows Server 2019 (first testing it in a virtual machine through Oracle and then using physical computers, 1 server and 3 client machines)
 
+
+
+
