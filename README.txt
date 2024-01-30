@@ -4,7 +4,9 @@ All the projects that have been lectured in the IEFP Programming Technician Cour
 As mentioned in this repository I've placed most of the exercises that I deem relevant to showcase, of what I have learned and skills I've developed upon partaking in this programming course.
 
 
-//////////////////////////////////////////////////////////////////////////////         CODING       ///////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////        CODING       /////////////////////////////////////////
+
+
 
 For most of the languages we learned about variable declaration, initialization, functions, vector and array creation and manipulation, string manipulation, struct creation, classes and objects (when possible in
 the language).
@@ -26,7 +28,11 @@ The languages that were lectured were:
 -HTML (a markup language more than a proper coding one, but we learned the basics of webpage set up through it, as well as stylization through CSS stylesheets)
 
 
-//////////////////////////////////////////////////////////////////////////          NETWORK         ///////////////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////        NETWORK       /////////////////////////////////////////
+
+
 
 There were also lectures in relation to network setups and how they work:
 
