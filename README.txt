@@ -3,6 +3,7 @@ All the projects that have been lectured in the IEFP Programming Technician Cour
 
 As mentioned in this repository I've placed most of the exercises that I deem relevant to showcase, of what I have learned and skills I've developed upon partaking in this programming course.
 
+(Note: I will try to translate the things I did to english, but you can still get the general idea of the logic behind it regardless of language, its just the variable names and comented code that may be hard to interpret)
 
 ////////////////////////////////        CODING       /////////////////////////////////////////
 
