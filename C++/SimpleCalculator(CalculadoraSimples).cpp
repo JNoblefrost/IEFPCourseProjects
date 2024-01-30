@@ -14,44 +14,16 @@ static void ImprimeMenuEN(){
 
 int main() {
 	
-	/* int userNum1;
-	int userNum2;
-	char operacao;
-	float resultado;
-	
-	
-	std::cout<<"Por favor introduza o primeiro algarismo: \n";
-	std::cin>>userNum1;
-	std::cout<<"\nPor favor introduza o segundo algarismo: \n";
-	std::cin>>userNum2;
-	
-	std::cout<<"\nPor favor introduza o carater indicado de acordo com a operacao desejada: \n";
-	std::cout<<"\nPara somar introduza -> + \nPara subtrair introduza -> - \nPara multiplicar introduza -> * \nPara dividir introduza -> / \n";
-	std::cin>>operacao;
-	
-	if (operacao=='+'){
-		resultado = userNum1 + userNum2;
-	}
-	else if (operacao =='-'){
-		resultado = userNum1 - userNum2;
-	}
-	else if (operacao =='*'){
-		resultado = userNum1*userNum2;
-	}
-	else if (operacao == '/'){
-		resultado = userNum1/userNum2;
-	}
-	
-	std::cout<<"O resultado de"<<userNum1<<operacao<<userNum2<<" e de: "<<resultado; */
 
-	setlocale(LC_ALL,"portuguese");
-	int ENstopper = 1;
-	int PTstopper = 1;
-	int language =0;
 
-	std::cout<<"Por favor selecione uma lingua/Please select a language: \n";
-	std::cout<<"0 - English\n1 - Portuguese";
-	std::cin>>language;
+setlocale(LC_ALL,"portuguese");
+int ENstopper = 1;
+int PTstopper = 1;
+int language =0;
+
+std::cout<<"Por favor selecione uma lingua/Please select a language: \n";
+std::cout<<"0 - English\n1 - Portuguese";
+std::cin>>language;
 
 while(true){
 switch(language){
