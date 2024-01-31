@@ -1,5 +1,6 @@
 #include <iostream>
 #include <locale.h>
+#include <stdlib.h>
 
 static void ImprimeMenuPT(){
 	std::cout<<"Por favor selecione uma das seguintes opções:\n";
@@ -8,22 +9,51 @@ static void ImprimeMenuPT(){
 
 static void ImprimeMenuEN(){
 	std::cout<<"Please select one of the following options:\n";
-	std::cout<<"1 - Sum\n2 - Subtraction\n3 - Multiplication\n4 - Division\n 5 - Portugues\n0 - Exit\n";
+	std::cout<<"1 - Sum\n2 - Subtraction\n3 - Multiplication\n4 - Division\n5 - Portugues\n0 - Exit\n";
 	
 }
 
 int main() {
 	
+	/* int userNum1;
+	int userNum2;
+	char operacao;
+	float resultado;
+	
+	
+	std::cout<<"Por favor introduza o primeiro algarismo: \n";
+	std::cin>>userNum1;
+	std::cout<<"\nPor favor introduza o segundo algarismo: \n";
+	std::cin>>userNum2;
+	
+	std::cout<<"\nPor favor introduza o carater indicado de acordo com a operacao desejada: \n";
+	std::cout<<"\nPara somar introduza -> + \nPara subtrair introduza -> - \nPara multiplicar introduza -> * \nPara dividir introduza -> / \n";
+	std::cin>>operacao;
+	
+	if (operacao=='+'){
+		resultado = userNum1 + userNum2;
+	}
+	else if (operacao =='-'){
+		resultado = userNum1 - userNum2;
+	}
+	else if (operacao =='*'){
+		resultado = userNum1*userNum2;
+	}
+	else if (operacao == '/'){
+		resultado = userNum1/userNum2;
+	}
+	
+	std::cout<<"O resultado de"<<userNum1<<operacao<<userNum2<<" e de: "<<resultado; */
 
+	setlocale(LC_ALL,"portuguese");
+	int ENstopper = 1;
+	int PTstopper = 1;
+	int language =0;
+	bool mainStopper=true;
 
-setlocale(LC_ALL,"portuguese");
-int ENstopper = 1;
-int PTstopper = 1;
-int language =0;
-
-std::cout<<"Por favor selecione uma lingua/Please select a language: \n";
-std::cout<<"0 - English\n1 - Portuguese";
-std::cin>>language;
+	std::cout<<"Por favor selecione uma lingua/Please select a language: \n";
+	std::cout<<"0 - English\n1 - Portuguese\n";
+	std::cin>>language;
 
 while(true){
 switch(language){
@@ -86,7 +116,7 @@ switch(language){
 					break;
 		
 					case 0:
-					exit;
+					exit(1);
 					break;
 					
 		
@@ -154,7 +184,7 @@ switch(language){
 			break;
 
 			case 0:
-			exit;
+			exit(1);
 			break;
 
 		};
