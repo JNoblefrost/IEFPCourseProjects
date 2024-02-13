@@ -1,0 +1,76 @@
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.AssemblyReference.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.GenerateResource.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.vb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\menurestaurante\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resources.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.AssemblyReference.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resources.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.GenerateResource.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.vb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.AssemblyReference.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resources.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.GenerateResource.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.vb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.AssemblyReference.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form2.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form3.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form4.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form5.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resources.resources
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.GenerateResource.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.vb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\ruben\OneDrive\Documentos\Curso\Programação em Visual Basic NET\projeto2 - Atualizado - Cópia\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
