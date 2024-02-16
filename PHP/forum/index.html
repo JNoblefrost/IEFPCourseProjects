@@ -1,0 +1,41 @@
+<html>
+  <!-- dentro do head apenas defino a linguagem o título-->
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Forum de programadores - IEFP(test)</title>
+    <link href="stylesheetIndex.css" rel="stylesheet" />
+  </head>
+  <!-- tudo o que aparece dentro da página tem de estar no body-->
+
+  <body style="text-align: center">
+    <!-- cabeçalho maior do site -->
+    <h1>Gestão de programadores</h1>
+    <!--br (abreviatura de break) cria quebra de linha-->
+    <br />
+    <form action="login.php" method="post" style="color: aliceblue">
+      <table width="20%" align="center" border="1" style="color: white">
+        <tr>
+          <td>Nick:</td>
+          <td><input type="text" size="20" name="nick" /><br /><br /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" size="20" name="pass" /><br /><br /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input class="buttoesIndex" type="submit" value="Entrar" />
+            <input type="reset" value="Limpar" />
+
+            <input
+              type="button"
+              value="Registar"
+              onclick="window.open('registar.html','_self')"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
