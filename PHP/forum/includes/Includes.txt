@@ -1,0 +1,4 @@
+Includes used to:
+- Filter out posted content themes
+- Connect the website to the database
+- Authenticate that a session is currently in action, this is, a user is logged on
