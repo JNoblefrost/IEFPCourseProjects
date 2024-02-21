@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheetIndex.css" rel="stylesheet" />
     <title>Forum para Programadores</title>
 </head>
 <body>
     <?php session_start();
     
-    include 'liga_bd.php';
+    include 'includes/liga_bd.php';
+    include 'includes/valida.php';
 
     if ($_POST['foto']!= null){
         $sql="INSERT INTO t_resp (id_user,id_post,texto, foto) VALUES

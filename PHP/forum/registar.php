@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Gestão de Utilizadores</title>
+    <link href="stylesheetIndex.css" rel="stylesheet" />
     <!-- ao fim de 5 segundo redireciona para o index-->
     <meta http-equiv="refresh" content="5;url=index.html">
 </head>
@@ -18,8 +19,9 @@
         die(mysqli_error($ligacao));
 
     //crio a instrução sql para inserir um novo registo
+    $tmp=password_hash($_POST['pass'], PASSWORD_DEFAULT);
     $sql = "INSERT INTO t_user (nick, nome, email, data_nasc, pass, foto) VALUES
-            ('$_POST[nick]','$_POST[nome]', '$_POST[email]', '$_POST[data_nasc]', '$_POST[pass]', '$_POST[foto]')";
+            ('$_POST[nick]','$_POST[nome]', '$_POST[email]', '$_POST[data_nasc]', '$tmp', '$_POST[foto]')";
     // os campos recebidos do formulário anterior pelo metodo post, tudo tem pelicas menos o float (vol_fatur)
     // caso consiga executar a ação mostra a mensagem de sucesso
     if (mysqli_query($ligacao, $sql))

@@ -9,7 +9,7 @@
 <h1>Validação de utilizadores</h1>
     <?php
     //liga-se ao servidor com user e pass
-    include "liga_bd.php";
+    include 'includes/liga_bd.php';
 
     //Verificar se existe uma variavel de sessão
     if(session_status()!==PHP_SESSION_ACTIVE){
@@ -23,7 +23,7 @@
             header('Location:erro.html');
         }
         //caso o nickname exista
-        if(strcmp($linha['pass'],$_POST['pass']==0)){
+        if(password_verify($_POST['pass'],$linha['pass'])){
             session_start();
             $_SESSION['id'] = $linha['id'];
             $_SESSION['nick'] = $linha['nick'];

@@ -15,7 +15,14 @@
   outline: auto;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b {
   color: white;
 }
 /*CSS do botão, https://getcssscan.com/css-buttons-examples */
@@ -50,7 +57,7 @@ input[type="submit"] {
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  box-shadow: rgba(75, 74, 83, 0.5) 0 1px 30px;
   transition-duration: 0.1s;
   background-image: linear-gradient(
     92.88deg,
@@ -82,6 +89,40 @@ input[type="submit"]:hover {
 }
 
 body {
-  background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg?w=1380&t=st=1707865079~exp=1707865679~hmac=bc3ea0da79c88f37ccde31820d64abf80bbcae53c4900d69c566602705c3ab34");
+  background-image: url("https://img.freepik.com/free-vector/binary-code-pattern-dark-blue-background_53876-116183.jpg");
   background-size: cover;
+  color: white;
+  font-size: 120%;
+}
+
+select {
+  font-size: 100%;
+  background-image: linear-gradient(
+    92.88deg,
+    #2a47b2 9.16%,
+    #4632cd 43.89%,
+    #5323d6 64.72%
+  );
+  border-radius: 8px;
+  color: white;
+  padding-right: 20px;
+  margin-right: 5px;
+}
+
+option {
+  background-color: #5323d6;
+}
+
+h1 {
+  text-align: center;
+  text-align: center;
+  background-color: rgb(59, 59, 120);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: auto;
+}
+
+td,
+tr {
+  color: white;
 }

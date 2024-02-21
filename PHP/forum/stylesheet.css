@@ -82,6 +82,7 @@ input[type="submit"]:hover {
 }
 
 body {
-  background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg?w=1380&t=st=1707865079~exp=1707865679~hmac=bc3ea0da79c88f37ccde31820d64abf80bbcae53c4900d69c566602705c3ab34");
-  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/binary-code-pattern-dark-blue-background_53876-116183.jpg");
+  background-size: 100% auto;
+  color: white;
 }

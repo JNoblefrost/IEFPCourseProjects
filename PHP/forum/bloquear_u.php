@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="refresh" content="3;url=gerir_u.php" />
     <title>Bloquear Clientes</title>
+    <link href="stylesheetIndex.css" rel="stylesheet" />
 </head>
 
 <body>
 
     <?php
     //liga-se ao servidor com user e pass
-    include "liga_bd.php";
+    include "includes/liga_bd.php";
+    include 'includes/valida.php';
 
     // instrução sql para adicionar
     $sql = "UPDATE t_user SET

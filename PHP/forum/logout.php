@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="5;url=index.html" />
+    <link href="stylesheetIndex.css" rel="stylesheet" />
     <title>Forum de programadores</title>
 </head>
 <body>
     <?php
-
-    session_start();
+    include 'includes/valida.php';
     //Apaga as variáveis de sessão
     $_SESSION=array();
     //Por fim destroy o array

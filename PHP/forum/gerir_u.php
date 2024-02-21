@@ -2,6 +2,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link href="stylesheetIndex.css" rel="stylesheet" />
     <title>Gestão de Utilizadores</title>
 </head>
 
@@ -13,7 +14,8 @@
     
     //criar a variavel ligacao (1º ip do servidor, 2º nome do utilizador)
     // (3º senha por defeito vazia, e 4º nome da base de dados)   
-    include "liga_bd.php";
+    include 'includes/liga_bd.php';
+    include 'includes/valida.php';
 
     //crio a instrução sql para selecionar todos os registos
     $sql = "SELECT * FROM t_user";

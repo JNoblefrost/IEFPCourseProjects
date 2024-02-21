@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheetIndex.css" rel="stylesheet" />
     <title>Forum para Programadores</title>
 </head>
 <body>
 
 <?php 
-session_start();
-include 'liga_bd.php';
+
+include 'includes/liga_bd.php';
+include 'includes/valida.php';
 //$sql="SELECT t_post.id,titulo,texto,t_post.foto,nick FROM t_post JOIN t_user ON t_post.user_id=t_user.id WHERE t_post.id=".$_POST['id_post'];
 $sql="SELECT * FROM t_post WHERE id=".$_POST['id_post'];
 $resultado = mysqli_query($ligacao,$sql) or die (mysqli_error($ligacao));

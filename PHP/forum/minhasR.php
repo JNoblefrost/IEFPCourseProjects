@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="stylesheet.css" rel="stylesheet">
+    <link href="stylesheetIndex.css" rel="stylesheet">
     <title>Minhas respostas</title>
 </head>
 <body>
 
 <?php 
-session_start();
-include 'liga_bd.php';
+include 'includes/liga_bd.php';
+include 'includes/valida.php';
 //$sql="SELECT t_post.id,titulo,texto,t_post.foto,nick FROM t_post JOIN t_user ON t_post.user_id=t_user.id WHERE t_post.id=".$_POST['id_post'];
 $sql="SELECT * FROM t_resp WHERE id_user=".$_SESSION['id'];
 $resultado = mysqli_query($ligacao,$sql) or die (mysqli_error($ligacao));
 $numresp=0;
 
+if($linha=mysqli_fetch_assoc($resultado)==null){
+    echo "<h1>Ainda não respondeu a nenhum post!</h1>";
+    echo "<input type='button' value='Voltar ao menu' onclick='window.history.go(-1)'>";
+
+}
 
 while($linha=mysqli_fetch_assoc($resultado))
 {
@@ -24,9 +29,9 @@ while($linha=mysqli_fetch_assoc($resultado))
     }else{
         echo"<font color='red'>";
     }
-    echo "</br><h1>ID:".$linha['id']."</h1>";
-    echo "<b>Texto:</b>".$linha['texto']."</br>";
-    echo "<b>Foto</b>:</br><img src=".$linha['foto']." height='100'></br>";
+    echo "</br><h1>ID: ".$linha['id']."</h1>";
+    echo "<b>Texto: </b>".$linha['texto']."</br>";
+    echo "<b>Foto: </b></br><img src=".$linha['foto']." height='100'></br>";
 
     echo "</font>";
     
@@ -35,9 +40,9 @@ while($linha=mysqli_fetch_assoc($resultado))
     $linhaPostSel = mysqli_fetch_assoc($resultadoPostSel);
     echo "<table id='tabelaResp' width='100%' align='left' border='1'>";
     echo "<tr><th id='respHeader' colspan='3'><h1>Resposta a</h1></th></tr>";
-    echo "<td><b>Tema:</b>".$linhaPostSel['tema']."</br>";
-    echo "<b>Título:</b>".$linhaPostSel['titulo']."</br>";
-    echo "<b>Texto:</b>".$linhaPostSel['texto']."</br></td>";
+    echo "<td><b>Tema: </b>".$linhaPostSel['tema']."</br>";
+    echo "<b>Título: </b>".$linhaPostSel['titulo']."</br>";
+    echo "<b>Texto: </b>".$linhaPostSel['texto']."</br></td>";
     echo "<td><img src=".$linhaPostSel['foto']." height='100'></td>";
     echo "</table></br></br>";
     $numresp++;

@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheetIndex.css" rel="stylesheet" />
     <title>Eliminar Post</title>
 </head>
 <body>
 <?php
-    include 'liga_bd.php';
+    include 'includes/liga_bd.php';
+    include 'includes/valida.php';
     $sql="UPDATE t_post SET apagado=".$_POST['motivo']." WHERE id=".$_POST['id_post'];
     echo $sql;
     if(mysqli_query($ligacao,$sql)){

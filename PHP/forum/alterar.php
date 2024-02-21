@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Alterar Registos</title>
+    <link href="stylesheetIndex.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -15,7 +16,8 @@
     $id = $_POST['id'];
 
     //estabelece a conexão ao servidor
-    include "liga_bd.php";
+    include "includes/liga_bd.php";
+    include 'includes/valida.php';
 
     //procura na base de dados o registo que selecionei
     $sql = "SELECT * FROM t_user where id=" . $id;

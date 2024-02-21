@@ -1,0 +1,21 @@
+<?php
+//FIXME O ciclo não percorre
+include 'includes/liga_bd.php';
+
+$sql="SELECT id, pass FROM t_user";
+$sqlresults=mysqli_query($ligacao,$sql) or die (mysqli_error($ligacao));
+
+while($linha=mysqli_fetch_assoc($sqlresults)){
+    echo "<br/>".$linha['pass'];
+    $hashedPass=password_hash($linha['pass'],PASSWORD_DEFAULT);
+    $sql2="UPDATE t_user SET pass='".$hashedPass."'where id=".$linha['id'];
+
+//    $sql2="UPDATE t_user SET pass='".$hashedPass."' where id=".$linha['id'];
+    echo $sql2 . "<br/>";
+    mysqli_query($ligacao, $sql2);
+
+    
+}
+
+
+?>

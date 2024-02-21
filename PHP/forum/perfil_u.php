@@ -2,19 +2,20 @@
 
 <head>
     <meta charset="utf-8">
+    <link href="stylesheetIndex.css" rel="stylesheet" />
     <title>Alterar Registos</title>
 </head>
 
 <body>
 
     <h1>Alteração de Registos</h1>
-    <hr><br>
+    <br>
 
     <?php
 
     //estabelece a conexão ao servidor
-    include "liga_bd.php";
-    session_start();
+    include 'includes/liga_bd.php';
+    include 'includes/valida.php';
 
     //procura na base de dados o registo que selecionei
     $sql = "SELECT * FROM t_user where id=$_SESSION[id]";
@@ -22,7 +23,6 @@
     $linha = mysqli_fetch_assoc($resultado);
     ?>
 
-    <hr>
     <form action="perfil_u2.php" method="post">
         <p> Id: <input type="text" name="id" size="11" value="<?php echo $linha['id'] ?>" readonly></p>
         <p> Nick: <input type="text" name="nick" size="20" value="<?php echo $linha['nick'] ?>"></p>

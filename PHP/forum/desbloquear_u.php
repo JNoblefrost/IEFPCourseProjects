@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="refresh" content="3;url=gerir_u.php" />
+    <link href="stylesheetIndex.css" rel="stylesheet" />
     <title>Bloquear Clientes</title>
 </head>
 
@@ -10,7 +11,8 @@
 
     <?php
     //liga-se ao servidor com user e pass
-    include "liga_bd.php";
+    include "includes/liga_bd.php";
+    include 'includes/valida.php';
 
 
     $sql = "UPDATE t_user SET

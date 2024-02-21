@@ -1,30 +1,62 @@
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <link href="stylesheetIndex.css" rel="stylesheet" />
     <title>Gestão de utilizadores</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Inserir Utilizadores</h1>
     <!-- o metodo post envia os dados de uma página para a outra de forma escondida
             o metodo get envia os dados para a página seguinte pela barra de endereço-->
     <form action="registar.php" method="post">
-        <p>Nick:<input type="text" name="nick" size="20" maxlength="20" required></p>
-        <p>Nome:<input type="text" name="nome" size="100" maxlength="100" required></p>
-        <p>Email:<input type="email" name="email" size="50" maxlength="50" required></p>
-        <p>Data de Nascimento:<input type="date" name="data_nasc" size="10" maxlength="10" required></p>
-        <p>Senha:<input type="password" name="pass" size="20" maxlength="20" required></p>
-        Foto (url):<br />
-        <textarea name="foto" cols="80" rows="4"></textarea><br /><br />
-        <!--O botao submit envia os dados para a pagina inserir.php o reset limpa
+      <p>
+        Nick:<input type="text" name="nick" size="20" maxlength="20" required />
+      </p>
+      <p>
+        Nome:<input
+          type="text"
+          name="nome"
+          size="100"
+          maxlength="100"
+          required
+        />
+      </p>
+      <p>
+        Email:<input
+          type="email"
+          name="email"
+          size="50"
+          maxlength="50"
+          required
+        />
+      </p>
+      <p>
+        Data de Nascimento:<input
+          type="date"
+          name="data_nasc"
+          size="10"
+          maxlength="10"
+          required
+        />
+      </p>
+      <p>
+        Senha:<input
+          type="password"
+          name="pass"
+          size="20"
+          maxlength="20"
+          required
+        />
+      </p>
+      Foto (url):<br />
+      <textarea name="foto" cols="80" rows="4"></textarea><br /><br />
+      <!--O botao submit envia os dados para a pagina inserir.php o reset limpa
                 os dados de todos os campos -->
-        <input type="submit" value="Inserir">
-        <input type="reset" value="limpar">
-        <br><br>
-        <a href="index.html" target="_self">Voltar ao menu</a>
+      <input type="submit" value="Inserir" />
+      <input type="reset" value="limpar" />
+      <br /><br />
+      <a href="index.html" target="_self">Voltar ao menu</a>
     </form>
-
-</body>
-
+  </body>
 </html>
