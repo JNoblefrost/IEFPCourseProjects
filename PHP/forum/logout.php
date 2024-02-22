@@ -9,6 +9,7 @@
 <body>
     <?php
     include 'includes/valida.php';
+    
     //Apaga as variáveis de sessão
     $_SESSION=array();
     //Por fim destroy o array

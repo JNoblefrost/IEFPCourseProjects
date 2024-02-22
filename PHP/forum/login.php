@@ -27,6 +27,7 @@
             session_start();
             $_SESSION['id'] = $linha['id'];
             $_SESSION['nick'] = $linha['nick'];
+            $_SESSION['admin'] = $linha['admin']; //Created a session status with a bool to define administration credentials
             header('Location:login2.php');
         }
         //em caso de senha incorreta

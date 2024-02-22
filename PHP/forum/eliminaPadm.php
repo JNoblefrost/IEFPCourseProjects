@@ -10,6 +10,7 @@
 <?php
     include 'includes/liga_bd.php';
     include 'includes/valida.php';
+    include 'includes/nav_bar.php';
     $sql="UPDATE t_post SET apagado=".$_POST['motivo']." WHERE id=".$_POST['id_post'];
     echo $sql;
     if(mysqli_query($ligacao,$sql)){

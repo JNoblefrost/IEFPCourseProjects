@@ -11,6 +11,7 @@
     
     include 'includes/liga_bd.php';
     include 'includes/valida.php';
+    include 'includes/nav_bar.php';
 
     if ($_POST['foto']!= null){
         $sql="INSERT INTO t_resp (id_user,id_post,texto, foto) VALUES

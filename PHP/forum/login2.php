@@ -11,7 +11,6 @@
     <h1>Forum para programadores</h1>
     <?php
         include 'includes/valida.php';
-
         echo "<h2 id='welcomeGreeting'>Bem vindo ".$_SESSION['nick']."!</h2>";        
     ?>
     <div id="butoes">

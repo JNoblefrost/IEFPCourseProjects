@@ -11,6 +11,7 @@
     
     include 'includes/liga_bd.php';
     include 'includes/valida.php';
+    include 'includes/nav_bar.php';
 
     //inserir na base de dados
     $sql="INSERT INTO t_post (tema,titulo,texto, foto, id_user) VALUES

@@ -11,6 +11,7 @@
 <?php 
 include 'includes/liga_bd.php';
 include 'includes/valida.php';
+include 'includes/nav_bar.php';
 include 'includes/filtra_P.php';
 
 

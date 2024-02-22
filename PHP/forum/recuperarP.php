@@ -10,6 +10,7 @@
 <?php
 include 'includes/liga_bd.php';
 include 'includes/valida.php';
+include 'includes/nav_bar.php';
     $sql="UPDATE t_post SET apagado=0 WHERE id=".$_POST['id_post'];
     if(mysqli_query($ligacao,$sql)){
         echo "<h1>Post recuperado com sucesso!</h1>";

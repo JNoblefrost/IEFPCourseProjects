@@ -16,6 +16,7 @@
     // (3º senha por defeito vazia, e 4º nome da base de dados)   
     include 'includes/liga_bd.php';
     include 'includes/valida.php';
+    include 'includes/nav_bar.php';
 
 
 

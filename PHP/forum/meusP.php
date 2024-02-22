@@ -11,6 +11,7 @@
 <?php 
 include 'includes/liga_bd.php';
 include 'includes/valida.php';
+include 'includes/nav_bar.php';
 $sql="SELECT t_post.id,titulo,texto,t_post.foto,nick,t_post.apagado FROM t_post JOIN t_user ON t_post.id_user=t_user.id WHERE id_user=".$_SESSION['id'];
 $resultado = mysqli_query($ligacao,$sql) or die (mysqli_error($ligacao));
 $numreg=0;
@@ -18,14 +19,14 @@ $numreg=0;
 //repete o ciclo enquanto houver linhas
 while($linha=mysqli_fetch_assoc($resultado)){
     if($linha['apagado']==0){
-        echo "<font color='black'>";
+        echo "<font color='white'>";
     }else{
         echo"<font color='red'>";
     }
     echo "<h3>Id:".$linha['id']."</h3>";
-    echo "<b>Título:</b>".$linha['titulo']."</br>";
-    echo "<b>Texto:</b>".$linha['texto']."</br>";
-    echo "<b>Foto:</b></br> <img src=".$linha['foto']." height='100>'</br>";
+    echo "<b>Título: </b>".$linha['titulo']."</br>";
+    echo "<b>Texto: </b>".$linha['texto']."</br>";
+    echo "<b>Foto: </b></br> <img src=".$linha['foto']." height='100>'</br>";
     echo"</font>";
     if($linha['apagado']==0){
 ?>
@@ -45,7 +46,8 @@ while($linha=mysqli_fetch_assoc($resultado)){
     <?php
     }
     if($linha['apagado']>1){
-        echo "<marquee><h1>Post Bloqueado pelo ADMIN</h1></marquee>";
+        //echo "<marquee><h1>Post Bloqueado pelo ADMIN</h1></marquee>"; ->marquee has been deprecated
+        echo "<h1>Post Bloqueado pelo ADMIN</h1>";
     }
         
     echo"<hr>";

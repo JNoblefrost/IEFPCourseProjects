@@ -11,6 +11,7 @@
 <?php 
 include 'includes/liga_bd.php';
 include 'includes/valida.php';
+include 'includes/nav_bar.php';
 //$sql="SELECT t_post.id,titulo,texto,t_post.foto,nick FROM t_post JOIN t_user ON t_post.user_id=t_user.id WHERE t_post.id=".$_POST['id_post'];
 $sql="SELECT * FROM t_resp WHERE id_user=".$_SESSION['id'];
 $resultado = mysqli_query($ligacao,$sql) or die (mysqli_error($ligacao));
@@ -25,7 +26,7 @@ if($linha=mysqli_fetch_assoc($resultado)==null){
 while($linha=mysqli_fetch_assoc($resultado))
 {
     if($linha['apagado']==0){
-        echo "<font color='black'>";
+        echo "<font color='white'>";
     }else{
         echo"<font color='red'>";
     }

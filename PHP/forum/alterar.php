@@ -18,6 +18,7 @@
     //estabelece a conexão ao servidor
     include "includes/liga_bd.php";
     include 'includes/valida.php';
+    include 'includes/nav_bar.php';
 
     //procura na base de dados o registo que selecionei
     $sql = "SELECT * FROM t_user where id=" . $id;

@@ -13,13 +13,16 @@
     //liga-se ao servidor com user e pass
     include 'includes/liga_bd.php';
     include 'includes/valida.php';
+    include 'includes/nav_bar.php';
     // instrução sql para adicionar
+    $tmp=password_hash($_POST['pass'], PASSWORD_DEFAULT);
+    
     $sql = "UPDATE t_user SET
     nick='$_POST[nick]',
     nome='$_POST[nome]',
     email='$_POST[email]',
     data_nasc='$_POST[data_nasc]',
-    pass='$_POST[pass]',
+    pass='$tmp',
     foto='$_POST[foto]'
     WHERE id=$_SESSION[id]";
     //echo $sql;

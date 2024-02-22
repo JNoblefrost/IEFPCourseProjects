@@ -10,6 +10,7 @@
 <?php
 include 'includes/liga_bd.php';
 include 'includes/valida.php';
+include 'includes/nav_bar.php';
     $sql="UPDATE t_resp SET apagado=0 WHERE id=".$_POST['id_resp'];
     if(mysqli_query($ligacao,$sql)){
         echo "<h1>Resposta recuperada com sucesso!</h1>";

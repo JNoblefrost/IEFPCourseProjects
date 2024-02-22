@@ -11,6 +11,7 @@
 <?php
 //valida o acesso aravés das variaveis de sessão
 include 'includes/valida.php';
+include 'includes/nav_bar.php';
 ?>
 
 <h1>Pesquisa de utilizadores</h1>

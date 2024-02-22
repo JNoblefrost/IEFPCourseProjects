@@ -9,7 +9,8 @@
 <body>
     <?php 
     include 'includes/valida.php';
-    include 'includes/liga_bd.php';?>
+    include 'includes/liga_bd.php';
+    include 'includes/nav_bar.php';?>
     
     <h1>Inserir Post </h1>
     <form action="inserirP2.php" method="POST" name="f1">
